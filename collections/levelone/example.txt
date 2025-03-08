@@ -1,0 +1,6 @@
+Reads the file using BufferedReader.
+Converts text to lowercase to ignore case differences.
+Removes punctuation using .replaceAll("[^a-z ]", ""), keeping only letters and spaces.
+Splits text into words using split("\\s+") (splits on spaces).
+Stores word frequencies in a HashMap.
+Prints the word frequency.
